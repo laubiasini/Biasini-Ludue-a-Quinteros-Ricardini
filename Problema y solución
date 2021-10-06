@@ -1,0 +1,12 @@
+# en el programa se debe ingresar una palabra, y luego el mismo debera contar cuantos caracteres tiene
+# ademas los caracteres de dicha palabra al mostrarse deben estar separadas por espacios.
+
+cont = 0
+nom = input("ingrese nombre: ")
+
+coleccion = nom
+for ca in coleccion:
+    print(f"{ca} ", end=" ")
+    cont = cont +1
+
+print(cont)
